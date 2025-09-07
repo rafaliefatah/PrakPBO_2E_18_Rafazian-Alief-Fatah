@@ -10,10 +10,10 @@ public class BarangTugas {
     }
 
     public void tampilData() {
-        System.out.println("Kode barang     :"+kode);
-        System.out.println("Nama barang     :"+namaBarang);
-        System.out.println("Harga dasar     :"+hargaDasar);
-        System.out.println("Diskon          :"+diskon+"%");
-        System.out.println("Harga jual      :"+hitungHargaJual());
+        System.out.println("Kode barang     : "+kode);
+        System.out.println("Nama barang     : "+namaBarang);
+        System.out.println("Harga dasar     : Rp."+hargaDasar);
+        System.out.println("Diskon          : "+diskon+"%");
+        System.out.println("Harga jual      : Rp."+hitungHargaJual());
     }
 }
