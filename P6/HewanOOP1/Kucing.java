@@ -3,6 +3,11 @@ class Kucing extends Hewan {
         super(nama);
     }
 
+    @Override
+    void bersuara() {
+        System.out.println("Meong!"); // Meng-override metode bersuara() dari Hewan
+    }
+
     void mengeong() {
         System.out.println("Meong!");
     }
